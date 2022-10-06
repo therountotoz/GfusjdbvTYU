@@ -1,7 +1,6 @@
 " black.vim
 " Author: Łukasz Langa
 " Created: Mon Mar 26 23:27:53 2018 -0700
-" Requires: Vim Ver7.0+
 " Version:  1.2
 "
 " Documentation:
@@ -54,7 +53,6 @@ if !exists("g:black_skip_magic_trailing_comma")
   if exists("g:black_magic_trailing_comma")
     let g:black_skip_magic_trailing_comma = !g:black_magic_trailing_comma
   else
-    let g:black_skip_magic_trailing_comma = 0
   endif
 endif
 if !exists("g:black_quiet")
